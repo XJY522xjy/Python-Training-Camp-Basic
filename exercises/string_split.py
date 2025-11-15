@@ -33,7 +33,7 @@ def parse_csv_line(csv_line):
     """
     # 请在下方编写代码
     # 使用split()方法分割CSV行，返回字段列表
-    return [f.strip() for f in csv_line.split("，")]
+    return [f.strip() for f in csv_line.split(",")]
 
 def extract_name_and_domain(email):
     """
