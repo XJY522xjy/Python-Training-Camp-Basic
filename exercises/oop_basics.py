@@ -41,7 +41,7 @@ class Student:
         - 无返回值，直接打印信息
         """
         # 请在下方编写代码，完成打印学生信息的功能
-        print(f"姓名:[{self.name}],年龄:[{self.age}],成绩:[{self.grade}]")
+        print(f"姓名:{self.name},年龄:{self.age},成绩:{self.grade}")
     
     def is_passing(self):
         """
