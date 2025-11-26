@@ -7,7 +7,7 @@
 
 请补全下面的函数，实现发送HTTP请求并处理响应的功能。
 """
-
+import requests
 def get_website_content(url):
     """
     发送GET请求获取网页内容
